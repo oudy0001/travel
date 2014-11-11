@@ -1,25 +1,25 @@
 @charset "utf-8";
 
 html { 
-  background: url(bg.jpg) no-repeat center center fixed; 
+  background: url(bg.JPG) no-repeat center center fixed; 
   background-size: cover;
 }
-
+.wrapper{
+    max-width: 1024px;
+    margin: 0 auto;
+}
 form div{
-    
-    opacity: 0.;
     color: #FFF;
     float: left;
     padding: 1% 0;
     background-color: #009DFF;
     text-align: center;
     border-radius: 200px;
-}
-form div{
     opacity: 0.9;
-    height: 1.3rem;
+    height: 2.5rem;
     border: 3px solid white;
 }
+
 h5{
     padding: 3rem;
 }
@@ -31,11 +31,18 @@ form{
     clear: both;
 }
 footer{
-    padding: 2%;
+    padding: 2%, 0%;
     clear: both;
 }
+div{
+    padding: 2%
+}
 .buttons{
+      display: table-cell; 
+  vertical-align: middle; 
+  text-align: center;
     clear: both;
+    height: 1.3rem;
     margin: 0 auto;
     float: left;
     text-align: center;
@@ -100,6 +107,8 @@ max-width: 779px) and (min-width: 500px){
     float: left;
 }
     .col {
+          display: table-cell; 
+  vertical-align: middle;
         width: calc(50% - 6px);
         padding: 5px 0px;
     }
