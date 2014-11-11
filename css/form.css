@@ -29,6 +29,9 @@ h2{
 
 form{
     clear: both;
+      display: table-cell; 
+  vertical-align: middle; 
+  text-align: center;
 }
 footer{
     padding: 2%, 0%;
@@ -38,9 +41,6 @@ div{
     padding: 2%
 }
 .buttons{
-      display: table-cell; 
-  vertical-align: middle; 
-  text-align: center;
     clear: both;
     height: 1.3rem;
     margin: 0 auto;
@@ -54,17 +54,17 @@ form img{
 }
 
 h1, p, h2, h5{
-    opacity: 0.7;
+    opacity: 0.8;
     text-align: center;
     border-radius: 200px;
     background-color: #FFFC00;
-    color: #009dff;
-    border: 3px solid #FF0000;
+    color: hsl(203, 100%, 30%);
+    border: 3px solid #009DFF;
 }
 h1{
     padding: 3rem;
     
-    border: 5px solid #FF0000;
+    border: 5px solid #009DFF;
 }
 lable{
     color: #FF0000;
